@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+    <TextView
+            android:id="@+id/numlist"
+            android:layout_width="300dp"
+            android:layout_height="58dp"
+            android:layout_margin="20dp"
+            android:text="넘어온 5개 문자열"
+            android:textSize="30sp"/>
+<!--    이 위로 webview  가 들어가면 되는 것 // webview 의 경우는 html 문자열로 받는다.-->
+
+    <WebView
+            android:id="@+id/graph"
+            android:layout_width="394dp"
+            android:layout_height="355dp"/>
+
+</LinearLayout>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+    <EditText
+            android:id="@+id/edit1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="15dp"
+            android:hint="1번째 값을 쓰시오"
+            android:textSize="30sp"/>
+    <EditText
+            android:id="@+id/edit2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="15dp"
+            android:hint="2번째 값을 쓰시오"
+            android:textSize="30sp"/>
+    <EditText
+            android:id="@+id/edit3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="15dp"
+            android:hint="3번째 값을 쓰시오"
+            android:textSize="30sp"/>
+    <EditText
+            android:id="@+id/edit4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="15dp"
+            android:hint="4번째 값을 쓰시오"
+            android:textSize="30sp"/>
+    <EditText
+            android:id="@+id/edit5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="15dp"
+            android:hint="5번째 값을 쓰시오"
+            android:textSize="30sp"/>
+
+    <Button
+            android:id="@+id/btn"
+            android:layout_width="145dp"
+            android:layout_marginLeft="10dp"
+            android:layout_height="wrap_content"
+            android:text="차트로 전환!"/>
+</LinearLayout>
